@@ -12,11 +12,13 @@
 <body>
     <div>
         <h1>Fahrenheit to Celsius Converter</h1>
-    
+    <form>
     <input type="number" id="inp1" placeholder="Enter Temperature">
     <br>
     <br>
-    <select id="temp" name="temp">
+    <!-- ya iski waja sa to nae ho rha hai kiun ka iski id bhi temp hai??  -->
+    <!-- ni id alag a -->
+        <select id="formula" name="temp"> 
         <option> Select the unit </option>
         <option value="C" id="cel"> Celsius </option>
         <option value="F" id="fah"> Fahrenheit </option>
@@ -24,6 +26,7 @@
     <br>
     <button onclick="convert()"> Convert it!</button>
     <br>
+</form>
     <br>
     <input type="text" id="res" placeholder="Answer">
 
